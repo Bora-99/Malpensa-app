@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+* , p{
+  font-family:"Poppins" !important
+  ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  border: 1px solid #0FB7B6 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.paragrafi1 {
+
+margin-top: 60px;
+left: 0%;
+right: 41.24%;
+top: 0%;
+bottom: 64%;
+align-content: left;
+font-style: normal;
+line-height: 30px;
+
+}
+
+.dashboardbox 
+  {display:flex; flex-direction:row; flex-wrap: wrap;}
+
+  .bodystyle {
+    align-items: center;
+    margin: 0% 10%;
   }
+
+  .btn-secondary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-outline-secondary {
+  margin: 10px;
+  width: 100px;
+  color:lightblue;
+  border-color: lightblue;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: lightblue;
+  border-color: lightblue;
+}
+.btn-outline-secondary:disabled {
+  color: #fff;
+  background-color: gray;
+  border-color: lightblue;
+}
+
+
+@media screen and (max-width:1200px) {
+  .CustomButton{
+    flex-wrap: 'wrap';
+  }
+  
+}
+
+.comp2{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 300px;
+  background-color: #D0D8DA;
   color: white;
+  border-radius: 2%;
+  margin: 10px 10px;
+  height: 120px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

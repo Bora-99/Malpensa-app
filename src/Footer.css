@@ -1,0 +1,17 @@
+.copyright {
+    justify-content:center
+}
+
+.adress{
+    color: rgb(255, 255, 255);
+    
+}
+
+.suporto {
+    color: rgb(255, 255, 255);
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+    display: grid;
+}
