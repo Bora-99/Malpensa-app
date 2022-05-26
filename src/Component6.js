@@ -1,8 +1,10 @@
 import React from 'react'
-
+import img2 from "./images/americanexpres.png";
+import img3 from "./images/mastercard.png";
+import img4 from "./images/visalogo.png";
+import img5 from "./images/paypal.png";
 import ButtonAvanti from './ButtonAvanti';
 import Checkbox from './Checkbox';
-import { SiVisa } from "react-icons/si";
 import "./Component6.css";
 
 export default function Component6() {
@@ -11,28 +13,28 @@ export default function Component6() {
         <div class="form-check">
           <input class="form-check-input" type="radio" id="flexRadioDefault1" />
           <label>Carta di credito</label>
+          <div className="pagamento">
+            <img src={ img4 } width="3%" height="10%" />
+            <img src={ img2 } width="3%" height="10%" />
 
-          <SiVisa />
+            <img src={img3} width="3%" height="10%" />
+          </div>
         </div>
         <div
           style={{
             backgroundColor: "#F0F4F5",
-            Width: "1000px",
+            Width: "800px",
             height: "300px",
             borderRadius: "5px",
             marginTop: "50px",
           }}
         >
-          <form class="row g-3 ">
+          <form class="row">
             <div class="col-12">
               <label for="inputAddress" class="form-label">
                 Provinzia
               </label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress"
-              />
+              <input type="text" class="form-control" id="inputAddress" />
             </div>
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">
@@ -54,6 +56,28 @@ export default function Component6() {
               <input type="text" class="form-control" id="inputAddress2" />
             </div>
           </form>
+        </div>
+        <div class="form-check" className="radiobutton">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">
+            PayPal <img src={img5} width="5%" height="10%" /> Che cos`e PayPal?
+          </label>
+        </div>
+        <div class="form-check" className="radiobuttonsec">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+          />
+          <label class="form-check-label" for="flexRadioDefault2">
+            Google PayPal
+          </label>
         </div>
         <Checkbox />
         <ButtonAvanti

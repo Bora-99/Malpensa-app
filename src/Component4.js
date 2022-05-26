@@ -14,8 +14,7 @@ export default function Component4 () {
             style={{
               display: "flex",
               flexWrap: "wrap",
-              alignContent: "space-around",
-              justifyContent: "space-between",
+              columnGap: "120px",
             }}
           >
             <FormGroup inline className="inputnome">
@@ -42,6 +41,14 @@ export default function Component4 () {
               <Label className="mr-sm-2">Comune residenca</Label>
               <Input type="name" name="nome" id="exampleNome" />
             </FormGroup>
+{/* <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+              <label class="form-check-label" for="inlineRadio1">1</label>
+              </div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div> */}
             <FormGroup inline className="inputnome">
               <Label className="mr-sm-2">Indrizzo</Label>
               <Input type="name" name="nome" id="exampleNome" />

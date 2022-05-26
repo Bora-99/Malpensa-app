@@ -10,8 +10,7 @@ export default function Comp5form(props) {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            alignContent: "space-around",
-            justifyContent: "space-between",
+            columnGap: "120px",
           }}
         >
           <FormGroup inline className="inputnome">
@@ -40,6 +39,10 @@ export default function Comp5form(props) {
           </FormGroup>
           <FormGroup inline className="inputnome">
             <Label className="mr-sm-2">Indrizzo</Label>
+            <Input type="name" name="nome" id="exampleNome" />
+          </FormGroup>
+          <FormGroup inline className="inputnome">
+            <Label className="mr-sm-2"></Label>
             <Input type="name" name="nome" id="exampleNome" />
           </FormGroup>
         </div>

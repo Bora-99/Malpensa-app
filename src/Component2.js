@@ -7,9 +7,9 @@ import {
   UncontrolledDropdown,
 } from "reactstrap";
 
-export default function Component2() {
+export default function Component2(props) {
   return (
-    <div className="comp2">
+    <div className="comp2" style={{ backgroundColor: props.color }}>
       <div
         style={{
           margin: "10px",

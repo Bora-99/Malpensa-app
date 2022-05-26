@@ -9,10 +9,15 @@ import {
 
 function Linguebutton() {
   return (
-    <div>
+    <div style={{ paddingRight: "80px" }}>
       <UncontrolledDropdown>
-        <DropdownToggle caret>
-          <Flag code={ "IT" } width={ "3%" } height={ "5%" } style={ {marginRight:'2%'}}/>
+        <DropdownToggle style={{ display: "flex" }}>
+          <Flag
+            code={"IT"}
+            width={"20px"}
+            height={"20px"}
+            style={{ marginRight: "2%" }}
+          />
           Italiano
         </DropdownToggle>
         <DropdownMenu>

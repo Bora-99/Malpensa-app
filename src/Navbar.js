@@ -35,7 +35,7 @@ function Navbar() {
               </p>
             </div>
           </a>
-        </div>
+        </div >
         <Linguebutton />
       </nav>
     </div>
